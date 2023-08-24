@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700&display=swap");
+@media (max-width: 4000px) and (min-width: 832px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+    min-height: 100vh;
+    background: #131518;
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .wrapper {
+    width: 412px;
+    height: 416px;
+    border-radius: 20px;
+    padding: 32px 40px 32px 32px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+  }
+  body .wrapper .container {
+    width: 341px;
+    height: 352px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  body .wrapper .container .logo .logo_circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .wrapper .container .text {
+    width: 340px;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body .wrapper .container .text .text_one {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  body .wrapper .container .text p {
+    width: 340px;
+    color: #969FAD;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  body .wrapper .container .ball {
+    display: flex;
+  }
+  body .wrapper .container .ball .bal {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7C8798;
+    margin-right: 21px;
+    cursor: pointer;
+  }
+  body .wrapper .container .ball .bal:hover {
+    background: #7C8798;
+    transition: 0.5s;
+  }
+  body .wrapper .container .ball .bal:active {
+    background: #FC7614;
+    color: #FFFFFF;
+  }
+  body .wrapper .container .ball .bal:nth-child(5) {
+    margin-right: 0;
+  }
+  body .wrapper .container button {
+    width: 341px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    background: #FC7614;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  body .wrapper .container button:hover {
+    color: #FC7614;
+    background: #FFFFFF;
+    transition: 0.5s;
+  }
+}
+@media (max-width: 832px) and (min-width: 0px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+    min-height: 100vh;
+    background: #131518;
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .wrapper {
+    width: 327px;
+    height: 360px;
+    border-radius: 20px;
+    padding: 24px 24px 32px 24px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+  }
+  body .wrapper .container {
+    width: 279px;
+    height: 280px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  body .wrapper .container .logo .logo_circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .wrapper .container .text {
+    width: 279px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body .wrapper .container .text .text_one {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  body .wrapper .container .text p {
+    width: 279px;
+    color: #969FAD;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  body .wrapper .container .ball {
+    display: flex;
+  }
+  body .wrapper .container .ball .bal {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7C8798;
+    margin-right: 17px;
+    cursor: pointer;
+  }
+  body .wrapper .container .ball .bal:hover {
+    background: #7C8798;
+    transition: 0.5s;
+  }
+  body .wrapper .container .ball .bal:active {
+    background: #FC7614;
+    color: #FFFFFF;
+  }
+  body .wrapper .container .ball .bal:nth-child(5) {
+    margin-right: 0;
+  }
+  body .wrapper .container button {
+    width: 279px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    background: #FC7614;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  body .wrapper .container button:hover {
+    color: #FC7614;
+    background: #FFFFFF;
+    transition: 0.5s;
+  }
+}/*# sourceMappingURL=style.css.map */
